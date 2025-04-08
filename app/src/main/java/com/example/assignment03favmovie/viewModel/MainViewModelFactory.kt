@@ -7,8 +7,8 @@ import com.example.assignment03favmovie.repository.Repository
 class MainViewModelFactory(private val movieRepository: Repository) : ViewModelProvider.Factory {
     @Suppress("UNCHECKED_CAST")
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        if (modelClass.isAssignableFrom(com.example.assignment03favmovie.viewModel.MainViewModel::class.java)) {
-            return MainViewModel(movieRepository) as T // Casting to RegisterViewModel
+        if (modelClass.isAssignableFrom(MainViewModel::class.java)) {
+            return MainViewModel(movieRepository) as T
         }
         throw IllegalArgumentException("Unknown MainViewModel class")
     }

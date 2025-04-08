@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
 import com.example.assignment03favmovie.R
 import com.example.assignment03favmovie.databinding.ItemMovieBinding
 import com.example.assignment03favmovie.model.Movie
@@ -25,11 +24,8 @@ class MovieAdapter(
             binding.movieStudio.text = movie.studio
             binding.movieRating.text = "Rating: ${movie.criticsRating}/5"
 
-            Glide.with(binding.root.context)
-                .load(movie.posterUrl)
-                .centerCrop()
-                .error(R.drawable.movie_palceholder)
-                .into(binding.moviePoster)
+            Glide.with(binding.root.context).load(movie.posterUrl).centerCrop()
+                .error(R.drawable.movie_palceholder).into(binding.moviePoster)
 
             binding.root.setOnClickListener {
                 fragmentView.goToDetails(movie)
@@ -56,6 +52,5 @@ class MovieDiffCallback : DiffUtil.ItemCallback<Movie>() {
     override fun areItemsTheSame(oldItem: Movie, newItem: Movie): Boolean =
         oldItem.movieId == newItem.movieId
 
-    override fun areContentsTheSame(oldItem: Movie, newItem: Movie): Boolean =
-        oldItem == newItem
+    override fun areContentsTheSame(oldItem: Movie, newItem: Movie): Boolean = oldItem == newItem
 }
