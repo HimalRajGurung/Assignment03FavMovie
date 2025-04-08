@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "590111188532",
+    "project_id": "assignment03fabmovie",
+    "storage_bucket": "assignment03fabmovie.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590111188532:android:e89ff6222038bc1e2d4c61",
+        "android_client_info": {
+          "package_name": "com.example.assignment03favmovie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIuwHNdr8GNaGJKMYB_igQTeQ4Pz-lm9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

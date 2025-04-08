@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Assignment03FavMovie</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="don_t_have_an_account_register_here">Don\'t have an account? Register here</string>
+    <string name="invalid_email_or_password">Invalid email or password</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="back">back</string>
+    <string name="welcome">Welcome !</string>
+    <string name="favorites">Favorites</string>
+    <string name="movies">Movies</string>
+    <string name="welcome_to_the_favorites_page">Welcome to the Favorites Page!</string>
+    <string name="welcome_to_the_home_page">Welcome to the Home Page!</string>
+    <string name="add_movie">Add Movie</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="studio">Studio</string>
+    <string name="enter_poster_url">Enter Poster URL</string>
+    <string name="movie_poster_url">movie poster url</string>
+    <string name="critics_rating">critics rating</string>
+    <string name="search_movies">Search movies</string>
+    <string name="rating_4_5">Rating: 4.5</string>
+    <string name="studio_name">Studio Name</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="please_enter_description">Please enter Description</string>
+</resources>
